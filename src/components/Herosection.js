@@ -29,7 +29,7 @@ export default function Herosection() {
 
             <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row lg:justify-start">
               <Link
-                href="/services"
+                href="/service"
                 className="rounded-xl bg-cyan-500 px-6 py-3 font-semibold text-white shadow-lg transition hover:scale-105 hover:bg-cyan-600"
               >
                 สำรวจบริการ
@@ -39,7 +39,7 @@ export default function Herosection() {
                 href="/contact"
                 className="rounded-xl border border-white px-6 py-3 font-semibold text-white transition hover:bg-white hover:text-slate-900"
               >
-                ปรึกษาฟรี
+                เกี่ยวกับเรา
               </Link>
             </div>
 
