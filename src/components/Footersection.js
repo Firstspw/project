@@ -66,28 +66,28 @@ export default function Footersection() {
             {/* Social */}
             <div className="mt-6 flex gap-3">
               <a
-                href="#"
+                href="/coming-soon"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-800 hover:bg-blue-600 duration-300"
               >
                 FB
               </a>
 
               <a
-                href="#"
+                href="/coming-soon"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-800 hover:bg-sky-500 duration-300"
               >
                 X
               </a>
 
               <a
-                href="#"
+                href="/coming-soon"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-800 hover:bg-pink-600 duration-300"
               >
                 IG
               </a>
 
               <a
-                href="#"
+                href="/coming-soon"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-800 hover:bg-blue-700 duration-300"
               >
                 IN

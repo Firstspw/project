@@ -128,7 +128,7 @@ export default function LoginModal({ isOpen, onClose }) {
               </label>
               {isLoginMode && (
                 <Link
-                  href="/forgot-password"
+                  href="/coming-soon"
                   className="text-xs font-medium text-indigo-600 hover:text-indigo-500 transition-colors"
                   onClick={onClose}
                 >

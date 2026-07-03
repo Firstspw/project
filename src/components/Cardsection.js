@@ -1,4 +1,5 @@
-import Image from 'next/image';
+import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Cardsection() {
   return (
@@ -37,9 +38,12 @@ export default function Cardsection() {
                 พัฒนา Chatbot อัจฉริยะ รองรับงานบริการลูกค้าและระบบตอบคำถามอัตโนมัติ
               </p>
 
-              <button className="mt-5 rounded-xl bg-cyan-600 px-5 py-2 text-white hover:bg-cyan-700">
+              <Link
+                href="/coming-soon"
+                className="mt-5 inline-flex rounded-xl bg-cyan-600 px-5 py-2 text-white transition hover:scale-[1.01] hover:bg-cyan-700"
+              >
                 ดูรายละเอียด
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -63,9 +67,12 @@ export default function Cardsection() {
                 พัฒนาเว็บไซต์และระบบจัดการข้อมูลด้วย Next.js และเทคโนโลยีสมัยใหม่
               </p>
 
-              <button className="mt-5 rounded-xl bg-cyan-600 px-5 py-2 text-white hover:bg-cyan-700">
+              <Link
+                href="/coming-soon"
+                className="mt-5 inline-flex rounded-xl bg-cyan-600 px-5 py-2 text-white transition hover:scale-[1.01] hover:bg-cyan-700"
+              >
                 ดูรายละเอียด
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -89,9 +96,12 @@ export default function Cardsection() {
                 วิเคราะห์ข้อมูลและจัดการระบบ Cloud เพื่อเพิ่มประสิทธิภาพการทำงาน
               </p>
 
-              <button className="mt-5 rounded-xl bg-cyan-600 px-5 py-2 text-white hover:bg-cyan-700">
+              <Link
+                href="/coming-soon"
+                className="mt-5 inline-flex rounded-xl bg-cyan-600 px-5 py-2 text-white transition hover:scale-[1.01] hover:bg-cyan-700"
+              >
                 ดูรายละเอียด
-              </button>
+              </Link>
             </div>
           </div>
 

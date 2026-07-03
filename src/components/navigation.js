@@ -69,8 +69,9 @@ export default function Navigation() {
 
               {/* Cart */}
               <Link
-                href="/cart"
+                href="/coming-soon"
                 className="relative p-2 text-gray-700 transition-colors hover:text-blue-600"
+                aria-label="ยังไม่มีหน้ารถเข็น"
               >
                 🛒
               </Link>

@@ -1,8 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navber from "../components/navigation";
+import Navber from "@/components/navigation";
 import icon from "../image/icon.png";
 import { UserProvider } from "./context/UserContext";
+import Footersection from "@/components/Footersection";
 
 import { Prompt } from "next/font/google";
 import "./globals.css";
@@ -41,6 +42,7 @@ export default function RootLayout({ children }) {
         <UserProvider>
           <Navber />
           {children}
+          <Footersection />
         </UserProvider>
       </body>
     </html>
